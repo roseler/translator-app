@@ -6,7 +6,7 @@ A mobile translation app built with React Native and Expo that helps connect voi
 
 - **[QUICK_START.md](./QUICK_START.md)** - Simple step-by-step guide for clients (easy to understand)
 - **[SETUP_CHECKLIST.md](./SETUP_CHECKLIST.md)** - Setup checklist for reference
-- **[THESIS_DOCUMENTATION.md](./DOCUMENTATION.md)** - Technical documentation for thesis defense (detailed explanation of how the app works)
+- **[DOCUMENTATION.md](./DOCUMENTATION.md)** - Technical documentation for thesis defense (detailed explanation of how the app works)
 
 ## Features
 
