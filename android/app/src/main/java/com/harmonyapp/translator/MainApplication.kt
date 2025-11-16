@@ -26,9 +26,11 @@ class MainApplication : Application(), ReactApplication {
             return PackageList(this).packages
           }
 
+          // Use Expo's entry point (will use bundled JS when dev server is disabled)
+          // The bundleCommand "export:embed" ensures JS is bundled into APK
           override fun getJSMainModuleName(): String = ".expo/.virtual-metro-entry"
 
-          override fun getUseDeveloperSupport(): Boolean = BuildConfig.DEBUG
+          override fun getUseDeveloperSupport(): Boolean = false  // Disable Metro bundler - use bundled JS instead
 
           override val isNewArchEnabled: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
           override val isHermesEnabled: Boolean = BuildConfig.IS_HERMES_ENABLED
